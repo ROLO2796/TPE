@@ -1,0 +1,13 @@
+list
+list due "date"
+list overdue
+list +"group"
+list group
+add "task" | due "date"
+add +"group" "task" | due "date"
+complete "id"
+ac
+save "file"
+open "file"
+
+date: "yesterday", "today", "tomorrow", "this-week", DD/MM/YYYY
