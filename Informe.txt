@@ -1,0 +1,7 @@
+Arrancamos planteando la estructura de como va a ser el programa. Llegamos a la conclusion que para las cosas que van
+a necesitar tener cierto orden vamos a usar estructuras ordenadas de referencias. Para poder acceder a los objetos
+rapidamente para cambiar su estado (complete, incomplete) vamos a usar hashes donde el identificador unico o el string
+de la tarea serian la llave y el valor seria el objeto tarea.
+
+De esta manera podemos acceder rapidamente a cada objeto y esos cambios se verian reflejados en las
+estructuras ordenadas porque no tienen instancias, sino referencias.
